@@ -23,7 +23,8 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Привет!\nЯ бот, который отвечает на вопросы о поступлении. Пиши мне!")
+    await message.reply("Привет!\nЯ бот, который отвечает на вопросы о поступлении. Пиши мне!",
+                        reply_markup=types.ReplyKeyboardRemove())
 
 
 @dp.message_handler()
