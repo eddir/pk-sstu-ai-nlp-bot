@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d7758fef-5b63-4461-8605-51d70e388676" name="vm.rostkov.me">
+        <fileTransfer rootFolder="/home/eddir/job/educate/NNAbiturient/tgbot" accessType="SFTP" host="vm.rostkov.me" port="22" sshConfigId="cd66b2a6-1f62-44a6-b420-7dd6549192f1" sshConfig="eddir@vm.rostkov.me:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

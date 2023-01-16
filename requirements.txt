@@ -1,0 +1,6 @@
+aiogram==2.24
+jamspell==0.0.12
+natasha==1.4.0
+navec==0.10.0
+numpy==1.24.1
+python-dotenv==0.21.0
